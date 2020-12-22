@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://4698.sharepoint.com/sites/SPFxDemos/Lists/MySampleList/AllItems.aspx",
+      "customActions": {
+        "eab17884-d5af-4e01-a6cd-88827cdc3d12": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    },
+    "hideDefaultDeleteButton": {
+      "pageUrl": "https://4698.sharepoint.com/sites/SPFxDemos/Lists/MySampleList/AllItems.aspx",
+      "customActions": {
+        "eab17884-d5af-4e01-a6cd-88827cdc3d12": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    }
+  }
+}

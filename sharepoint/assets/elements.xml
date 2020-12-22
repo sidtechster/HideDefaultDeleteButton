@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="HideDefaultDeleteButton"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="eab17884-d5af-4e01-a6cd-88827cdc3d12"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
